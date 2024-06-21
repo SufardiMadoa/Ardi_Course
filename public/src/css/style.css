@@ -1,0 +1,439 @@
+:root {
+    --russian-violet: #10002b;
+    --russian-violet2: #240046;
+    --persian-indigo: #3c096c;
+    --tekhelet: #5a189a;
+    --frenct-violet: #7b2cbf;
+    --amethyst: #9d4edd;
+    --heliotrope: #c77dff;
+    --mauve: #e0aaff;
+  
+    --white: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    color: var(--russian-violet2);
+  }
+  
+  .login .custom-button {
+    color: var(--tekhelet);
+    border: none;
+  }
+  
+  .custom-button-2 {
+    color: #ffe1fb;
+    background-color: var(--tekhelet);
+    padding: 8px 20px;
+    border: var(--tekhelet);
+  }
+  
+  .custom-button-2:hover {
+    background-color: #480785;
+    transition: 0.2s ease-in-out;
+  }
+  
+  /* navbar */
+  .navbar-brand,
+  .navbar-brand:hover {
+    color: var(--persian-indigo);
+  }
+  
+  .active {
+    color: var(--amethyst) !important;
+  }
+  .nav-item .nav-link:hover {
+    color: var(--amethyst);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  /* hero section */
+  #hero {
+    height: 90vh;
+  }
+  
+  #hero h1 {
+    color: var(--persian-indigo);
+    margin-bottom: 1.3rem;
+    text-align: center;
+  }
+  
+  #hero p {
+    color: var(--russian-violet2);
+    text-align: center;
+  }
+  
+  /* about */
+  #about {
+    background-color: var(--russian-violet2);
+  }
+  
+  #about h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  #about p {
+    font-size: 1.15em;
+    color: white;
+  }
+  
+  #about .about-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #features p span {
+    color: var(--amethyst);
+  }
+  
+  #features-comparison table .fa-circle-check {
+    color: green;
+  }
+  #features-comparison table .fa-xmark {
+    color: red;
+  }
+  
+  #features-comparison button {
+    font-weight: bold;
+  }
+  
+  .features-heading h2 {
+    color: var(--amethyst);
+  }
+  .features-heading p {
+    color: var(--russian-violet) !important;
+  }
+  
+  .custom-button {
+    color: var(--amethyst);
+    background-color: var(--white);
+    padding: 8px 20px;
+    border: 1px solid var(--amethyst);
+    transition: 0.2s ease-in-out;
+  }
+  
+  .custom-button:hover {
+    transition: all ease-in-out 0.3s;
+    background-color: var(--amethyst);
+    color: var(--white);
+  }
+  
+  thead th {
+    color: var(--amethyst) !important;
+  }
+  
+  tbody td a {
+    color: #000;
+  }
+  
+  tbody p {
+    display: none;
+  }
+  
+  tfoot th a {
+    color: var(--amethyst);
+  }
+  tfoot th a:hover {
+    color: #2f0258;
+  }
+  
+  #features div h2 {
+    color: var(--persian-indigo);
+  }
+  .features-items {
+    font-size: large;
+    color: var(--amethyst);
+  }
+  
+  .features-heading {
+    margin-top: 50px;
+  }
+  
+  /* check personality */
+  #check {
+    background-color: var(--russian-violet2);
+    color: var(--white);
+  }
+  
+  #check .display-3 {
+    color: var(--white) !important;
+  }
+  
+  .check-heading p {
+    margin-bottom: 40px;
+  }
+  
+  .check-button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  #check p {
+    color: var(--white);
+  }
+  
+  #community {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .community-heading h2 {
+    color: var(--persian-indigo);
+  }
+  .community-heading p {
+    color: var(--tekhelet);
+  }
+  
+  /* article */
+  
+  .card-body .badge {
+    background-color: var(--frenct-violet);
+  }
+  
+  #article h2 {
+    color: var(--persian-indigo);
+  }
+  
+  #article .card-title {
+    color: var(--persian-indigo);
+  }
+  
+  #article .card-text {
+    color: #000;
+  }
+  
+  .article-button a {
+    color: var(--persian-indigo);
+  }
+  .article-button a:hover {
+    color: #110d5c;
+  }
+  #features-comparison table th {
+    font-size: 0.8em;
+  }
+  #features-comparison table td {
+    font-size: 0.8em;
+  }
+  
+  #features-comparison tbody th {
+    text-align: left;
+  }
+  #features-comparison tbody td {
+    text-align: center;
+  }
+  
+  /* footer */
+  
+  .footer-logo {
+    color: var(--amethyst);
+  }
+  
+  .footer-section p {
+    color: var(--white);
+  }
+  
+  .footer-section .custom-social li {
+    margin: 2px;
+    display: inline-block;
+  }
+  .footer-section .custom-social li a {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    background: var(--tekhelet);
+    color: white;
+    border-radius: 50%;
+  }
+  .footer-section .custom-social li a:hover {
+    background: #2f0258;
+    color: #ffffff;
+  }
+  
+  .footer-section h5 {
+    color: white;
+  }
+  
+  .reason-text p {
+    color: white;
+  }
+  
+  #form {
+    background-color: #f9f2ff;
+  }
+  
+  #form form .logo {
+    color: var(--white);
+  }
+  
+  #form .form-input {
+    background-color: var(--persian-indigo);
+  }
+  
+  #form input {
+    background-color: white;
+    border: 1px solid white;
+  }
+  
+  #form .custom-button-3 {
+    color: white;
+    background-color: var(--tekhelet);
+    padding: 8px 20px;
+  }
+  #form .custom-button-3:hover {
+    color: #e8dfff;
+    background-color: #240046;
+    padding: 8px 20px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .form-label {
+    color: #f8edff;
+  }
+  
+  .form-check {
+    color: #f8edff;
+  }
+  
+  #form .card-body h5 {
+    color: var(--white);
+  }
+  
+  .card-body form a {
+    color: var(--mauve);
+  }
+  
+  footer {
+    background-color: var(--russian-violet2);
+  }
+  
+  footer h5 {
+    color: white;
+  }
+  
+  footer .contact-information span {
+    color: var(--amethyst);
+  }
+  
+  footer li a {
+    font-size: 0.75em;
+    color: white;
+  }
+  
+  footer li {
+    margin-bottom: 5px;
+  }
+  
+  footer .copyright span {
+    color: var(--tekhelet);
+  }
+  
+  .terms-privacy a {
+    color: var(--tekhelet);
+  }
+  
+  /* Media Queries */
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .login .custom-button {
+      background-color: transparent;
+      color: var(--tekhelet);
+    }
+    .login .custom-button:hover {
+      background-color: transparent;
+    }
+  
+    #hero .hero-title h1 {
+      text-align: center;
+      margin-bottom: 2.2rem;
+    }
+  
+    #hero {
+      height: 80vh;
+    }
+  
+    #hero .custom-button {
+      margin: 0 auto;
+    }
+  
+    #features-comparison table th {
+      font-size: 1em;
+    }
+  
+    .features-content {
+      margin-top: 40px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .login .custom-button {
+      color: var(--white);
+      background-color: var(--tekhelet);
+      padding: 8px 20px;
+    }
+  
+    .login .custom-button:hover {
+      color: var(--white);
+      background-color: #2f0258;
+      transition: 0.2s ease-in-out;
+    }
+  
+    #hero {
+      height: 90vh;
+    }
+  
+    #hero .custom-button {
+      margin: 0;
+    }
+  
+    #hero .hero-title h1 {
+      text-align: left;
+      margin-bottom: 2.5rem;
+    }
+  
+    #hero .hero-title p {
+      text-align: left;
+    }
+  
+    #about h2 {
+      text-align: left;
+    }
+  
+    #about .about-button {
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: left;
+    }
+  
+    .check-heading p {
+      margin-bottom: 80px;
+    }
+  
+    .check-button {
+      margin-top: 100px;
+      margin-bottom: 40px;
+    }
+  
+    #community {
+      margin-top: 150px;
+      margin-bottom: 80px;
+    }
+  
+    tbody p {
+      display: block;
+    }
+  
+    .features-heading {
+      width: 70%;
+      margin: 30px auto 0 auto;
+    }
+  }
+  
