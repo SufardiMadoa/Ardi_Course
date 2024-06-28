@@ -1,0 +1,178 @@
+
+
+.dropdown-number{
+    display: flex;
+    align-items: center;
+    /* margin: auto; */
+}
+.dropdown-number p{
+    margin: 5px;
+}
+.form-group{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(255, 255, 255);
+}
+
+.input-group{
+    margin: 0;
+    /* background-color: black; */
+    padding: 0;
+}
+
+.table-master{
+    background-color:white;
+    padding: 5px;
+}
+.master{
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .form-control{
+    width: 200px;
+}
+.head-right{
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+ 
+}
+.head-right button{
+    display: flex;
+    color: black;
+    border: 1px solid #287303;
+    width: 70px;
+    height: 30px;
+    justify-content: space-between;
+}
+.head-right button:hover{
+    border: 1px solid #287303;
+}
+.head-right button a:hover{
+    color: #287303;
+    
+}
+
+.table-group-divider tr td ul li a:hover {
+    background-color: #287303;
+    color: #ffffff;
+}
+.table-group-divider tr td ul li a:active {
+    background-color: #287303;
+    color: #ffffff;
+}
+.card-header-tabs .nav-link.active {
+    background-color: #548235;
+    color: white;
+}
+@media only screen and (max-width: 700px){
+    .dt-button.ui.button.buttons-csv.buttons-html5{
+        width: 70px !important;
+    }
+    .dropdown-number, .dropdown-number p, .dropdown-number .form-group{
+        font-size: 10px;
+        width: 30px;
+    }
+    .dropdown-number .dropdown{
+        width: 50px;
+    }
+    .head-right .form-control{
+        width: 150px;
+        margin-top: 20px;
+    }
+    .head-right button{
+        border: 1px solid #287303;
+        width: 70px;
+        
+    }
+    .head-right span{
+        font-size: 15px;
+        margin: auto;
+        
+    }
+    .row.mt-2.justify-content-between{
+        display: flex;
+    }
+    .row.mt-2.justify-content-between .col-md-auto.me-auto {
+        display: flex;
+
+    }
+}
+table.dataTable th,
+table.dataTable td {
+    white-space: nowrap;
+}
+.dt-length label{
+    display:none;
+}
+.dt-search label{
+    display:none;
+}
+table thead{
+    background-color:#548235;
+   
+}
+table thead tr th span{
+    color:white;
+   
+}
+table thead tr th input{
+    background-color: white;
+}
+.dt-paging-button.page-item.active a{
+    z-index:0;
+    background-color: #548235;
+    color:white;
+}
+
+.btn {
+  
+    border: none !important;
+}
+.dropstart .dropdown-menu {
+    min-width: 100px !important;
+    position:static;
+}
+
+.dropstart .dropdown-item {
+    padding: 0px 5px !important;
+    font-size: 15px !important;
+}
+tbody tr{
+    height:4.5rem;
+}
+
+.row.mt-2.justify-content-between{
+    display:flex;
+    
+}
+.col-md-auto.me-auto{
+    display:flex;
+    justify-content:start;
+    flex-direction:row-reverse;
+    gap:10px;
+} 
+.form-select.form-select-sm{
+    height:100%;
+    width:70px !important;
+    margin-right:0 !important;
+}
+.dt-length{
+    padding:0;
+    width:70px !important;
+}
+.dt-search{
+    height:100% !important;
+}
+.dt-search input{
+    height:100%;
+    font-size:14px;
+}

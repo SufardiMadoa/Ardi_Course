@@ -57,6 +57,9 @@
             <li class="nav-item mx-1">
               <a class="nav-link" href="/features">Features</a>
             </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="/dashboard">Dashboard</a>
+            </li>
            
           </ul>
           <div class="login">

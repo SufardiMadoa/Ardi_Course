@@ -8,3 +8,4 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'SufardiWeb::beranda');
 $routes->get('/login', 'SufardiWeb::login');
 $routes->get('/features', 'SufardiWeb::features');
+$routes->get('/dashboard', 'SufardiWeb::dashboard');

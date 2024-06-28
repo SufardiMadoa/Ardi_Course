@@ -34,6 +34,17 @@ class SufardiWeb extends BaseController
         echo view('features');
         echo view('/layout/kaki');
     }
+    public function dashboard() //: string
+{
+    $xx = new \App\Models\EventModel();
 
-   
+    $hasil = $xx->findAll();
+    $data = [
+        'title' => 'tdashboard',
+        'pengunjung' => 'Sufardi',
+        'event' => $hasil
+    ];
+    echo view('layout/dashboardNavbar');
+    echo view('dashboard', $data);
+}
 }
