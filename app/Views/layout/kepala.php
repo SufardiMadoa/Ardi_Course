@@ -3,6 +3,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mindful Work - Empowering Mental Health in the Workplace</title>
+        <!-- <link rel="stylesheet" href="https://cdn.datatables.net/2.0.3/css/dataTables.bootstrap5.css"> -->
+        <!-- <link rel="stylesheet" href="https://cdn.datatables.net/select/2.0.0/css/select.bootstrap5.css"> -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,7 +34,7 @@
             width="40"
             alt=""
             class="me-2"
-          />Mindful Work</a
+          />Ardi Course</a
         >
         <button
           class="navbar-toggler"
@@ -55,7 +57,7 @@
             </li>
            
             <li class="nav-item mx-1">
-              <a class="nav-link" href="/features">Features</a>
+              <a class="nav-link" href="/course">Features</a>
             </li>
             <li class="nav-item mx-1">
               <a class="nav-link" href="/dashboard">Dashboard</a>
@@ -64,7 +66,7 @@
           </ul>
           <div class="login">
             <a
-              href="/login"
+              href="sufardiWeb/login"
               class="custom-button rounded-5 fw-medium text-decoration-none"
               >Login</a
             >
@@ -73,6 +75,21 @@
       </div>
     </nav>
     <!-- End Navbar -->
+    <script src="{{asset('js/dasboard/adminDasboard.js')}}"></script>
+<script ></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
+<script src="https://cdn.datatables.net/2.0.3/js/dataTables.bootstrap5.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script> -->
+
+<!-- button -->
+<script src="https://cdn.datatables.net/select/2.0.0/js/dataTables.select.js"></script>
+<script src="https://cdn.datatables.net/select/2.0.0/js/select.bootstrap5.js"></script>
+
+
+<script src="https://kit.fontawesome.com/91500c2459.js" crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

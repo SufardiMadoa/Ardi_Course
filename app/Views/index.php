@@ -11,17 +11,16 @@
       >
         <div class="col-lg-6 hero-title">
           <h1 class="display-3 fw-bold lh-1">
-            Nurturing Minds, Empowering Workplaces
+          Mengembangkan Pengetahuan, Memperkuat Keahlian
           </h1>
           <p class="lead fw-normal mb-4 h5">
-            At Mindful Work, we foster mental well-being and empower workplaces
-            through resources, support, and connections.
+          Di Ardi Course, kami membantu Anda meningkatkan keterampilan dan pengetahuan melalui berbagai kursus berkualitas, dukungan, dan koneksi.
           </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <a
-              href="#"
+              href="#kursus"
               class="custom-button text-decoration-none rounded-5 text-center fw-medium"
-              >Schedule a Consultation</a
+              >Lihat Kursus</a
             >
           </div>
         </div>
@@ -43,12 +42,12 @@
     <section id="about">
       <div class="container row mx-auto d-flex align-items-center py-3">
         <div class="col-lg-3 m-auto">
-          <h2 class="display-4 fw-bold mb-4 order-lg-1">Our Story</h2>
+          <h2 class="display-4 fw-bold mb-4 order-lg-1">  Cerita Kami</h2>
           <div class="about-button">
             <a
               href="#"
               class="custom-button-2 rounded-5 fw-medium text-decoration-none order-lg-1"
-              >Learn More</a
+              >Lihat lebih banyak</a
             >
           </div>
         </div>
@@ -61,13 +60,15 @@
         </div>
         <div class="col-lg-6 order-lg-2 text-md-center text-lg-start">
           <p class="fw-normal lead mb-4">
-            At Mindful Work, we're dedicated to fostering mental well-being in
-            every workplace. Learn about our journey, values, and commitment to
-            supporting individuals on their path to better mental health.
+        
+Pelajari lebih lanjut
+
+Di Ardi Course, kami berdedikasi untuk memudahkan pengelolaan kursus dan materi di setiap platform online. Pelajari tentang perjalanan kami, nilai-nilai yang kami junjung, dan komitmen kami dalam menciptakan pengalaman belajar yang lebih baik.
+
           </p>
           <p>
-            Get to know our mission and team dedicated to promoting mental
-            wellness in every workplace
+          Kenali misi dan tim kami yang berdedikasi untuk menyediakan solusi pengelolaan kursus yang sederhana, responsif, dan mudah digunakan di setiap platform online.
+
           </p>
         </div>
       </div>
@@ -87,18 +88,13 @@
           </div>
           <div class="features-content col-lg-5 m-auto">
             <h2 class="display-4 fw-bold mb-4 text-center text-lg-start">
-              Path to Wellness
+            Jalan Menuju Sukses
             </h2>
             <p
               class="lead mb-4 mb-md-1 text-center text-lg-start col-lg-auto col-10 mx-auto"
             >
-              Explore <span class="fw-normal">Path to Wellness</span> with our
-              comprehensive suite of features, meticulously designed to
-              accompany you on your journey towards mental well-being. From
-              scheduling appointments to engaging with a supportive community,
-              tracking your progress, and conducting mental health assessments,
-              we offer the essential tools to guide you towards optimal
-              wellness.
+              Explore <span class="fw-normal">Jelajahi Apa yang Kami Tawarkan</span> 
+              Eksplorasi Jalan Menuju Sukses dengan rangkaian fitur lengkap yang kami sediakan, dirancang secara teliti untuk mendampingi Anda dalam perjalanan menuju pembelajaran yang lebih efektif. Mulai dari penjadwalan kursus hingga keterlibatan komunitas, pelacakan kemajuan, dan evaluasi materi, kami menyediakan alat penting untuk membantu Anda mencapai hasil belajar yang optimal.
             </p>
             <div
               class="features-items row g-5 text-center justify-content-center justify-content-lg-start mt-0 mt-lg-0 pb-5 pb-lg-0"
@@ -111,7 +107,7 @@
                   alt=""
                   width="60"
                   class="mb-3"
-                />Appointment Scheduling
+                />Penjadwalan Kursus
               </div>
               <div
                 class="col-lg-5 col-5 d-flex flex-column justify-content-center align-items-center"
@@ -121,7 +117,7 @@
                   alt=""
                   width="60"
                   class="mb-3"
-                />Community Engagement
+                />Keterlibatan Komunitas
               </div>
               <div
                 class="col-lg-5 col-5 d-flex flex-column justify-content-center align-items-center ms-lg-auto"
@@ -131,7 +127,7 @@
                   alt=""
                   width="60"
                   class="mb-3"
-                />Progress Tracking
+                />Pelacakan Kemajuan
               </div>
               <div
                 class="col-lg-5 col-5 d-flex flex-column justify-content-center align-items-center ms-lg-auto"
@@ -141,7 +137,7 @@
                   alt=""
                   width="60"
                   class="mb-3"
-                />Mental Health Assessments
+                />Evaluasi Materi
               </div>
             </div>
             <div
@@ -150,7 +146,9 @@
               <a
                 href="features.html"
                 class="custom-button rounded-5 fw-medium text-decoration-none order-lg-1"
-                >Discover What We Offer</a
+                >Temukan apa yang kami tawarkan 
+
+</a
               >
             </div>
           </div>
@@ -164,12 +162,9 @@
         <div
           class="check-heading mx-auto text-center fw-normal col-lg-9 col-11 m-auto"
         >
-          <h2 class="display-4 fw-bold m-auto mb-4">OUR IMPACT</h2>
+          <h2 class="display-4 fw-bold m-auto mb-4">DAMPAK KAMI</h2>
           <p class="text-lg-start lead mx-auto">
-            At Mindful Work, we are committed to addressing mental health
-            challenges in the workplace. Through our platform, we aim to provide
-            support and resources to employees who may be experiencing mental
-            health issues. Here's how we're making a difference:
+          Di Ardi Course, kami berkomitmen untuk memberikan pengalaman belajar yang terbaik bagi pengguna kami. Melalui platform ini, kami bertujuan untuk menyediakan fitur-fitur yang mendukung setiap tahap perjalanan pembelajaran online. Inilah cara kami memberikan perbedaan:
           </p>
         </div>
         <div
@@ -179,8 +174,7 @@
             <div>
               <p class="display-3 fw-bolder">170M+</p>
               <p class="text-lg-start text-center lead">
-                Studies estimate 170 million individuals across sectors face
-                mental health issues.
+              Lebih dari 170 juta peserta kursus telah terhubung melalui berbagai platform pembelajaran online di seluruh dunia.
               </p>
             </div>
           </div>
@@ -188,8 +182,7 @@
             <div>
               <p class="display-3 fw-bolder">88%</p>
               <p class="text-lg-start text-center lead">
-                Mindful Work has an 88% success rate in helping users manage
-                stress and enhance mental health.
+              Ardi Course memiliki tingkat kepuasan 88% di antara pengguna yang aktif terlibat dalam kursus dan meningkatkan keterampilan mereka.
               </p>
             </div>
           </div>
@@ -197,7 +190,7 @@
             <div>
               <p class="display-3 fw-bolder">100K+</p>
               <p class="text-lg-start text-center lead">
-                We're committed to expanding our services for the community.
+              Kami berkomitmen untuk terus memperluas layanan kami dan mendukung lebih dari 100 ribu pengguna yang terus belajar bersama Ardi Course.
               </p>
             </div>
           </div>
@@ -206,7 +199,8 @@
           <a
             href="#"
             class="custom-button-2 rounded-5 fw-medium text-decoration-none"
-            >Check Your Personality</a
+            >
+            Cek Kepribadian Anda</a
           >
         </div>
       </div>
@@ -216,45 +210,39 @@
     <section id="community">
       <div class="col-10 mx-auto">
         <div class="community-heading text-center mb-5">
-          <h2 class="display-5 fw-bold mb-3">Community Voices</h2>
-          <p>Stories of Connection, Support, Empowerment</p>
+          <h2 class="display-5 fw-bold mb-3">Suara Komunitas</h2>
+          <p>Cerita tentang Koneksi, Dukungan, dan Pemberdayaan</p>
         </div>
         <div class="row g-5 fst-italic">
           <div class="col-lg-4">
             <div class="d-flex align-items-start justify-content-start">
               <img src="src/images/text.png" alt="" width="50" class="me-3" />
               <p>
-                After incorporating Mindful Work into my routine, I've noticed a
-                positive shift in my overall mood and resilience. It's become an
-                essential part of my self-care regimen.
+              "Setelah mengikuti kursus di Ardi Course, saya merasakan peningkatan signifikan dalam pemahaman saya. Ini telah menjadi bagian penting dari perjalanan belajar saya.".
               </p>
             </div>
 
-            <p class="text-end text-secondary">- Salmaa F</p>
+            <p class="text-end text-secondary">- Hanif F</p>
           </div>
           <div class="col-lg-4">
             <div class="d-flex justify-content-start align-items-start">
               <img src="src/images/text.png" alt="" width="50" class="me-3" />
               <p>
-                "I was skeptical at first, but after trying Mindful Work, I can
-                honestly say it's been instrumental in helping me cope with
-                stress and anxiety.
+              "Saya awalnya ragu, tetapi setelah mencoba Ardi Course, saya benar-benar merasa terbantu dalam meningkatkan keterampilan dan pengetahuan saya."
+              </p>
+            </div>
+
+            <p class="text-end text-secondary">- Sufardi M</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="d-flex justify-content-start align-items-start">
+              <img src="src/images/text.png" alt="" width="50" class="me-3" />
+              <p>
+              "Sebagai seseorang yang selalu mencari cara belajar yang efektif, menemukan platform seperti Ardi Course adalah sebuah anugerah. Rasanya seperti memiliki komunitas pendukung di genggaman saya."
               </p>
             </div>
 
             <p class="text-end text-secondary">- Ridhwan C</p>
-          </div>
-          <div class="col-lg-4">
-            <div class="d-flex justify-content-start align-items-start">
-              <img src="src/images/text.png" alt="" width="50" class="me-3" />
-              <p>
-                As someone who struggles with mental health, finding a platform
-                like Mindful Work has been a relief. It's like having a
-                supportive community at my fingertips
-              </p>
-            </div>
-
-            <p class="text-end text-secondary">- Masan B</p>
           </div>
         </div>
       </div>
@@ -265,50 +253,45 @@
         <div class="row gx-5 justify-content-center">
           <div class="col-lg-8 col-xl-6">
             <div class="text-center article-heading">
-              <h2 class="fw-bolder display-5">Featured Articles</h2>
+              <h2 class="fw-bolder display-5">Kursus Unggulan</h2>
               <p class="lead mb-5">
-                Explore practical strategies to manage stress in the workplace
-                and prioritize your mental health amidst professional demands.
+              Temukan kursus terbaik yang dirancang untuk meningkatkan keterampilan Anda dan memajukan karier Anda. 
+  Pelajari teknik-teknik praktis dan strategi terkini untuk mencapai kesuksesan profesional.
               </p>
             </div>
           </div>
         </div>
-        <div class="row gx-5">
-          <div class="col-lg-4 mb-5">
-            <div class="card h-100 shadow border-0">
-              <img
-                class="card-img-top"
-                src="src/images/article1.svg"
-                alt="..."
-              />
-              <div class="card-body p-4">
-                <div class="badge bg-gradient rounded-pill mb-2">
-                  Mental Wellness
+        <div class="row gx-5 " id="kursus">
+        <?php foreach ($beranda as $b) : ?>
+          <div class="col-lg-4 mb-5 ">
+            <div class="card  shadow border-0">
+              
+              <div class="card-body p-4 ">
+                <div class="badge bg-gradient rounded-pil mb-2">
+                gratis
                 </div>
                 <a
                   class="text-decoration-none link-dark stretched-link"
-                  href="#!"
+                  href="<?= base_url('/course/materi/' . $b['id']); ?> "
                   ><h5 class="card-title mb-3">
-                    The Power of Mindfulness at Work
+                  <?= $b['judul']; ?>
                   </h5></a
                 >
                 <p class="card-text mb-0">
-                  Learn how incorporating mindfulness practices into your daily
-                  routine can reduce stress and enhance productivity.
-                </p>
+                <?= $b['deskripsi']; ?>
               </div>
-              <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                <div class="d-flex align-items-end justify-content-between">
-                  <div class="d-flex align-items-center">
-                    <img
-                      class="rounded-circle me-3"
-                      src="src/images/article/thumb/person1.svg"
-                      alt="..."
-                    />
-                    <div class="small">
-                      <div class="fw-bold">Sarah Thompson</div>
-                      <div class="text-muted">
-                        April 12, 2024 &middot; 6 min read
+              <div class="card-footer p-4 pt-0 bg-transparent border-top-0 w-100">
+                <div class="d-flex align-items-end justify-content-between w-100">
+                  <div class="d-flex align-items-center w-100">
+                    
+                    <div class="small w-100">
+                      <div class="fw-bold"> <?= esc($b['materi_count']); ?> Materi
+                        </div>
+                      <div class="flex-row d-flex justify-content-between w-100">
+                      <p class="text-muted">
+
+                      <?= $b['tanggal']; ?></p>
+                      <p class="text-muted"> <?= $b['durasi']; ?> </p>
                       </div>
                     </div>
                   </div>
@@ -316,95 +299,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 mb-5">
-            <div class="card h-100 shadow border-0">
-              <img
-                class="card-img-top"
-                src="src/images/article2.svg"
-                alt="..."
-              />
-              <div class="card-body p-4">
-                <div class="badge bg-gradient rounded-pill mb-2">
-                  Mental Wellness
-                </div>
-                <a
-                  class="text-decoration-none link-dark stretched-link"
-                  href="#!"
-                  ><h5 class="card-title mb-3">
-                    Unlocking Creativity: Embracing Mental Health Breaks
-                  </h5></a
-                >
-                <p class="card-text mb-0">
-                  Discover how taking breaks and nurturing your mental
-                  well-being can foster creativity and innovation in the
-                  workplace.
-                </p>
-              </div>
-              <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                <div class="d-flex align-items-end justify-content-between">
-                  <div class="d-flex align-items-center">
-                    <img
-                      class="rounded-circle me-3"
-                      src="src/images/article/thumb/person2.svg"
-                      alt="..."
-                    />
-                    <div class="small">
-                      <div class="fw-bold">James Smith</div>
-                      <div class="text-muted">
-                        March 5, 2024 &middot; 4 min read
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-5">
-            <div class="card h-100 shadow border-0">
-              <img
-                class="card-img-top"
-                src="src/images/article3.svg"
-                alt="..."
-              />
-              <div class="card-body p-4">
-                <div class="badge bg-gradient rounded-pill mb-2">
-                  Workplace Productivity and Well-being
-                </div>
-                <a
-                  class="text-decoration-none link-dark stretched-link"
-                  href="#!"
-                  ><h5 class="card-title mb-3">
-                    Building Resilience: Overcoming Adversity in the Workplace
-                  </h5></a
-                >
-                <p class="card-text mb-0">
-                  Explore effective strategies to build resilience and bounce
-                  back from setbacks in your professional life.
-                </p>
-              </div>
-              <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                <div class="d-flex align-items-end justify-content-between">
-                  <div class="d-flex align-items-center">
-                    <img
-                      class="rounded-circle me-3"
-                      src="src/images/article/thumb/person3.svg"
-                      alt="..."
-                    />
-                    <div class="small">
-                      <div class="fw-bold">Emily Chen</div>
-                      <div class="text-muted">
-                        January 18, 2024 &middot; 10 min read
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <?php endforeach; ?>
         </div>
         <div class="article-button text-center">
-          <a href="" class="fs-6"
-            >Visit publishing
+          <a href="/course" class="fs-6"
+            >Lihat Lebih Banyak
             <span class="ms-2"
               ><i class="fa-solid fa-arrow-right-long"></i></span
           ></a>

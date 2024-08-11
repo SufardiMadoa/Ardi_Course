@@ -17,15 +17,9 @@
     color:white;
     
     }
-    .dt-search label{
-    display:none;
-}
-.dt-length label{
-    display:none;
-}
-.dt-length{
-    margin-top:8px;
-    margin-bottom:8px;
+    .dt-search {
+    display:hidden;
+
 }
     </style>
 </head>
@@ -33,23 +27,24 @@
 <!--Main Navigation-->
 <!--Main layout-->
 <main style="margin-top: 58px; mx-2">
-  <div class="container  mx-2 px-3">
-  <h4 class="">Data Kursus </div>
+  <div class="container pt-4 mx-2">
+  <h4 class="my-4">Data Materi </div>
   <div class="col-sm-12 col-md-12">
-      
+        <div class="head-right d-flex align-items-start justify-content-between flex-row flex-md-row">
+          
+    </div>
 </div>
-<div class="table-responsive  px-3">
-    
-    <div class="text-end check-button">
+<div class="container pt-4 mx-2 table-responsive my-3">
+<div class="text-end check-button">
           <a
             href="#"
             class="custom-button-2 rounded-3 px-4 fw-medium text-decoration-none"
-            data-bs-toggle="modal" data-bs-target="#modalTambah">
+            data-bs-toggle="modal" data-bs-target="#modalTambah" data-course-id="<?= $course_id; ?>">
             Tambah Kursus</a
           >
-        </div>
-        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTambah">Tambah Kursus</button> -->
-   
+        </div>    
+
+
     <table id="example" class="table table-striped table-hover dt-responsive" style="width:100%">
         <thead>
             <tr class="column-table">
@@ -57,25 +52,19 @@
                 <th >Tanggal</th>
                 <th >Judul</th>
                 <th >Deskripsi</th>
-                <th >Durasi</th>
-                <th>Materi</th>
+                <th >Link</th>
                 <th >Action</th>
             </tr>
         </thead>
         <tbody>
-        <?php foreach ($event as $e) : ?>
+        <?php foreach ($materi as $m) : ?>
             <tr>
 
-                <td ><?= $e['tanggal']; ?></td>
-                <td><?= $e['judul']; ?></td>
-                <td><?= $e['deskripsi']; ?></td>
+                <td ><?= $m['tanggal']; ?></td>
+                <td><?= $m['judul_materi']; ?></td>
+                <td><?= $m['deskripsi_materi']; ?></td>
                 <td>
-                    durasi
-                </td>
-                <td>
-                <a href="<?= base_url('materi/' . $e['id']); ?>">
-                    <i class="fa-regular fa-eye"></i>
-                    </a>
+                <a href="<?= $m['link_materi']; ?>" ><?= $m['link_materi']; ?></a>
                 </td>
                 <td >
                     <div class=" dropstart">
@@ -83,8 +72,8 @@
                         <i class="fa-solid fa-ellipsis"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-sm ">
-                            <li><a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#editModal<?= $e['id']; ?>">Edit</a></li>
-                            <li>  <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#deleteModal<?= $e['id']; ?>">Delete</a></li>
+                        <li><a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#editModal<?= $m['id']; ?>">Edit</a></li>
+                        <li>  <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#deleteModal<?= $m['id']; ?>">Delete</a></li>
                         </ul>
                     </div>
                 </td>
@@ -92,6 +81,7 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+    
     
 
 </main>
@@ -102,8 +92,6 @@
 <script src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.semanticui.js"></script>
 <script src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.html5.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.print.min.js"></script>
-
-
 
 <script>
 // dibawah ini merupakan script pada table
