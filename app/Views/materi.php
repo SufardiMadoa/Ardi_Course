@@ -17,9 +17,15 @@
     color:white;
     
     }
-    .dt-search {
-    display:hidden;
-
+    .dt-search label{
+    display:none;
+}
+.dt-length label{
+    display:none;
+}
+.dt-length{
+    margin-top:8px;
+    margin-bottom:8px;
 }
     </style>
 </head>
@@ -27,20 +33,18 @@
 <!--Main Navigation-->
 <!--Main layout-->
 <main style="margin-top: 58px; mx-2">
-  <div class="container pt-4 mx-2">
-  <h4 class="my-4">Data Materi </div>
+  <div class="container  mx-2 px-3">
+  <h4 class="">Data Materi </div>
   <div class="col-sm-12 col-md-12">
-        <div class="head-right d-flex align-items-start justify-content-between flex-row flex-md-row">
-          
-    </div>
+      
 </div>
-<div class="container pt-4 mx-2 table-responsive my-3">
+<div class="table-responsive  px-3">
 <div class="text-end check-button">
           <a
             href="#"
             class="custom-button-2 rounded-3 px-4 fw-medium text-decoration-none"
             data-bs-toggle="modal" data-bs-target="#modalTambah" data-course-id="<?= $course_id; ?>">
-            Tambah Kursus</a
+            Tambah Materi</a
           >
         </div>    
 
@@ -62,7 +66,7 @@
 
                 <td ><?= $m['tanggal']; ?></td>
                 <td><?= $m['judul_materi']; ?></td>
-                <td><?= $m['deskripsi_materi']; ?></td>
+                <td><?= strlen($m['deskripsi_materi']) > 30 ? substr($m['deskripsi_materi'], 0, 30) . '...' : $m['deskripsi_materi']; ?></td>
                 <td>
                 <a href="<?= $m['link_materi']; ?>" ><?= $m['link_materi']; ?></a>
                 </td>

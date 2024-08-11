@@ -10,7 +10,7 @@
         <?= csrf_field(); ?>
         <input type="hidden" name="course_id" value="<?= $course_id; ?>">
         <div class="mb-3">
-                <label for="tanggal" class="form-label">Tanggal</label>
+                <label for="tanggal" class="form-label text-black">Tanggal</label>
             <?php
         // Mendapatkan tanggal saat ini
                 $tanggal_sekarang = date('Y-m-d'); // Format YYYY-MM-DD
@@ -18,15 +18,15 @@
             <input type="date" class="form-control" id="tanggal" name="tanggal" aria-describedby="emailHelp" readonly value="<?= $tanggal_sekarang; ?>">
         </div>
         <div class="mb-3">
-            <label for="Judul" class="form-label">Judul</label>
+            <label for="Judul" class="form-label text-black">Judul</label>
             <input type="text" class="form-control" id="judul" name="judul">
         </div>
         <div class="mb-3">
-            <label for="deskripsi" class="form-label">Deskripsi</label>
+            <label for="deskripsi" class="form-label text-black">Deskripsi</label>
             <textarea class="form-control" id="deskripsi" name="deskripsi" rows="4" aria-describedby="emailHelp"></textarea>
         </div>
            <div class="mb-3">
-               <label for="link" class="form-label">Link</label>
+               <label for="link" class="form-label text-black">Link</label>
                <input type="text" class="form-control" id="link" name="link">
             </div>   
                <button type="submit" class="btn btn-primary">Submit</button>

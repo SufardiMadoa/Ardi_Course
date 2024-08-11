@@ -9,7 +9,7 @@
         <form action="/tambahCourse" method="post">
         <?= csrf_field(); ?>
         <div class="mb-3">
-                <label for="tanggal" class="form-label">Tanggal</label>
+                <label for="tanggal" class="form-label text-black">Tanggal</label>
             <?php
         // Mendapatkan tanggal saat ini
                 $tanggal_sekarang = date('Y-m-d'); // Format YYYY-MM-DD
@@ -17,16 +17,16 @@
             <input type="date" class="form-control" id="tanggal" name="tanggal" aria-describedby="emailHelp" readonly value="<?= $tanggal_sekarang; ?>">
         </div>
         <div class="mb-3">
-           <label for="Judul" class="form-label">Judul</label>
+           <label for="Judul" class="form-label text-black">Judul</label>
            <input type="text" class="form-control" id="judul" name="judul">
        </div>
        <div class="mb-3">
-        <label for="deskripsi" class="form-label">Deskripsi</label>
+        <label for="deskripsi" class="form-label text-black">Deskripsi</label>
         <textarea class="form-control" id="deskripsi" name="deskripsi" aria-describedby="emailHelp" rows="3"></textarea>
         </div>
 
            <div class="mb-3">
-               <label for="durasi" class="form-label">Durasi</label>
+               <label for="durasi" class="form-label text-black">Durasi</label>
                <input type="text" class="form-control" id="durasi" name="durasi">
             </div>   
                <button type="submit" class="btn btn-primary">Submit</button>

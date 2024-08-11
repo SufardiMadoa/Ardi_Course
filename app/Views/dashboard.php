@@ -68,10 +68,8 @@
 
                 <td ><?= $e['tanggal']; ?></td>
                 <td><?= $e['judul']; ?></td>
-                <td><?= $e['deskripsi']; ?></td>
-                <td>
-                    durasi
-                </td>
+                <td><?= strlen($e['deskripsi']) > 50 ? substr($e['deskripsi'], 0, 50) . '...' : $e['deskripsi']; ?></td>
+                <td><?= $e['durasi']; ?></td>
                 <td>
                 <a href="<?= base_url('materi/' . $e['id']); ?>">
                     <i class="fa-regular fa-eye"></i>

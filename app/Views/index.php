@@ -278,7 +278,7 @@ Di Ardi Course, kami berdedikasi untuk memudahkan pengelolaan kursus dan materi 
                   </h5></a
                 >
                 <p class="card-text mb-0">
-                <?= $b['deskripsi']; ?>
+                <?= strlen($b['deskripsi']) > 50 ? substr($b['deskripsi'], 0, 50) . '...' : $b['deskripsi']; ?>
               </div>
               <div class="card-footer p-4 pt-0 bg-transparent border-top-0 w-100">
                 <div class="d-flex align-items-end justify-content-between w-100">

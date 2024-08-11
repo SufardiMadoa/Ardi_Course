@@ -18,6 +18,8 @@
                         
                                     <h2 class="fw-bolder display-5"> <?= $selectedMateri['judul_materi']; ?></h2>
                                     <p class="lead mb-5"><?= $selectedMateri['deskripsi_materi']; ?></p>
+
+                                    <a href="<?= $selectedMateri['link_materi']; ?>"><p>lihat Selengkapnya.. <i class="fa-solid fa-arrow-right-long"></i></p> </a>
                                     </div>
                                     <?php
                             } else {
@@ -27,6 +29,7 @@
                             echo "<p>Pilih materi dari sidebar untuk melihat detailnya.</p>";
                         }
                         ?>
+
                     </div>
                 </section>
             </div>

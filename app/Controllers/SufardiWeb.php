@@ -109,7 +109,7 @@ public function tambahMateri()
         'deskripsi_materi' => $this->request->getVar('deskripsi'),
         'link_materi' => $this->request->getVar('link')
     ]);
-    return redirect()->to('/materi');
+    return redirect()->to('/dashboard');
 }
 public function editCourse($id)
 {
